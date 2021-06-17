@@ -5,11 +5,43 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portifólio Web</title>
+  <style>
+    body{
+      background-color: #c9e4ca;
+      color: #000000;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      font-weight: 300;
+    }
+    .prof-pic{
+      border-radius: 50%;
+    }
+    .wp{
+      width: 300px;
+    }
+    h2{
+      background-color: #364958;
+      color: #c9e4ca;
+    }
+    .nav-com-p{
+      background-color: #364958;
+    }
+    a{
+      text-decoration: none;
+      color: #e9ff70;
+    }
+    a:hover{
+      color: #f55536;
+    }
+    .pointer{
+      background-color: #364958;
+      padding: .3%;
+    }
+  </style>
 </head>
 <body>
   <h1>Wilson Salles Junior</h1>
-  <p><a href="#sobre">Sobre</a> <a href="#habilidades">Habilidades</a> <a href="#divertido">Um site divertido</a></p>
-  <img src="https://avatars.githubusercontent.com/u/64506476?v=4" alt="Foto de Wilson Salles Junior">
+  <p class="nav-com-p"><a href="#sobre">Sobre</a> | <a href="#habilidades">Habilidades</a> | <a href="#divertido">Um site divertido</a></p>
+  <img src="https://avatars.githubusercontent.com/u/64506476?v=4" alt="Foto de Wilson Salles Junior" class="prof-pic">
   <p><em>Este sou eu</em></p>
   <h2 id="sobre">SOBRE:</h2>
   <p>Meu nome é <strong>Wilson Salles Junior</strong>, nasci em Bauru - SP, sou apaixonado por jogos digitais, e graças aos jogos digitais que me permitiu buscar aprender linguagens de programação, através do Unity 3D, com a linguagem C#, hoje em dia, descobri que amo programar, desde então, busco ser um grande programador :D.</p>
@@ -24,11 +56,11 @@
     <li>Github</li>
     <li><strong>HTML</strong></li>
     <hr>
-    <img src="pp.jpeg" alt="Wilson com sua esposa">
+    <img src="pp.jpeg" alt="Wilson com sua esposa" class="wp">
     <p><em>Este sou eu e minha mulher, este dia foi muito bom</em></p>
     <hr>
     <h2 id="divertido">Um site divertido:</h2>
-    <p>o site <a href="http://pointerpointer.com/" target="_blank">Pointer Pointer</a> faz com que você coloque o cursor em qualquer parte da página e ela retorna uma imagem de alguém/algo apontando para o cursor.</p>
+    <p>o site <a href="http://pointerpointer.com/" target="_blank" class="pointer">Pointer Pointer</a> faz com que você coloque o cursor em qualquer parte da página e ela retorna uma imagem de alguém/algo apontando para o cursor.</p>
   </ul>
 </body>
 </html>
