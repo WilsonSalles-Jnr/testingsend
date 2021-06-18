@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #c9e4ca;
+    color: #000000;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 300;
+    font-size: 1.2em;
+  }
+  .prof-pic{
+    border-radius: 50% 0 50% 0;
+    width: 50%;
+    padding: 2%;
+    background-color: #364958;
+  }
+  .wp{
+    width: 300px;
+  }
+  h2{
+    padding: .3% 0 .3% .3%;
+    background-color: #364958;
+    color: #c9e4ca;
+    padding: .3%;
+  }
+  .nav-com-p{
+    background-color: #364958;
+    font-size: 1.3em;
+    text-align: center;
+  }
+  a{
+    text-decoration: none;
+    color: #e9ff70;
+  }
+  a:hover{
+    color: #f55536;
+  }
+  .pointer{
+    background-color: #364958;
+    padding: .3%;
+  }
+  h1{
+    font-family: 'Viaoda Libre', cursive;
+  }
+  .ctes{
+    color: #f55536;
+  }
+  ul{
+    line-height: 1em;
+  }
+.foto-descr{
+    display: inline-block;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin: 1% 2% 1% 2%;
+}
+.foto-leg{
+    display: inline-block;
+    text-align: center;
+}
+.descr{
+    display: inline-block;
+    max-width: 70%;
+    vertical-align: top;
+    text-align: justify;
+}
+.center{
+    text-align: center;
+}
+.divertido{
+    padding-bottom: 2%;
+}
+.divertido p{
+    padding-top: 1%;
+    padding-left: 2%;
+}
+.hab .content{
+    padding-top: 1%;
+    padding-left: 2%;
+    padding-bottom: 1%;
+}
+ul li:nth-child(odd){
+    color: #f55536;
+}

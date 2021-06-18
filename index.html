@@ -1,80 +1,75 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portifólio Web</title>
   <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap" rel="stylesheet">
-  <style>
-    body{
-      background-color: #c9e4ca;
-      color: #000000;
-      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-      font-weight: 300;
-    }
-    .prof-pic{
-      border-radius: 50%;
-    }
-    .wp{
-      width: 300px;
-    }
-    h2{
-      padding: .3% 0 .3% .3%;
-      background-color: #364958;
-      color: #c9e4ca;
-    }
-    .nav-com-p{
-      background-color: #364958;
-      font-size: 1.3em;
-    }
-    a{
-      text-decoration: none;
-      color: #e9ff70;
-    }
-    a:hover{
-      color: #f55536;
-    }
-    .pointer{
-      background-color: #364958;
-      padding: .3%;
-    }
-    h1{
-      font-family: 'Viaoda Libre', cursive;
-    }
-    .ctes{
-      color: #f55536;
-    }
-    ul{
-      font-size: 1.3em;
-      line-height: 1em;
-    }
-  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <h1>Wilson Salles Junior</h1>
-  <p class="nav-com-p"><a href="#sobre">Sobre</a> | <a href="#habilidades">Habilidades</a> | <a href="#divertido">Um site divertido</a></p>
-  <img src="https://avatars.githubusercontent.com/u/64506476?v=4" alt="Foto de Wilson Salles Junior" class="prof-pic">
-  <p><em>Este sou eu</em></p>
-  <h2 id="sobre">SOBRE:</h2>
-  <p>Meu nome é <strong>Wilson Salles Junior</strong>, nasci em <strong class="ctes">Bauru/SP Brasil</strong> sou apaixonado por jogos digitais, e graças aos jogos digitais que me permitiu buscar aprender linguagens de programação, através do Unity 3D, com a linguagem C#, hoje em dia, descobri que amo programar, desde então, busco ser um grande programador :D.</p>
-  <p>Neste meu portifólio, você poderá me conhecer um pouco melhor e minhas capacidades.</p>
-  <hr>
-  <h2 id="habilidades">Habilidades:</h2>
-  <p>Aqui listarei as habilidades que adquiri através da Trybe. <em>A que está em negrito eu amo de paixão *u*</em></p>
-  <ul>
-    <li>Unix</li>
-    <li>Bash</li>
-    <li>Git</li>
-    <li>Github</li>
-    <li><strong>HTML</strong></li>
-  </ul>
-  <hr>
-  <img src="pp.jpeg" alt="Wilson com sua esposa" class="wp">
-  <p><em>Este sou eu e minha mulher, este dia foi muito bom</em></p>
-  <hr>
-  <h2 id="divertido">Um site divertido:</h2>
-  <p>o site <a href="http://pointerpointer.com/" target="_blank" class="pointer">Pointer Pointer</a> faz com que você coloque o cursor em qualquer parte da página e ela retorna uma imagem de alguém/algo apontando para o cursor.</p>
+  <div>
+    <h1 class="center">Wilson Salles Junior</h1>
+    <p class="nav-com-p"><a href="#sobre">Sobre</a> | <a href="#habilidades">Habilidades</a> | <a
+        href="#familia">Familia</a> | <a href="#divertido">Um site divertido</a> </p>
+    <h2 id="sobre">SOBRE:</h2>
+    <div class="foto-descr">
+
+      <div class="foto-leg">
+        <img src="https://avatars.githubusercontent.com/u/64506476?v=4" alt="Foto de Wilson Salles Junior"
+          class="prof-pic">
+        <p><em>Este sou eu</em></p>
+      </div>
+
+      <div class="descr">
+        <p>Meu nome é <strong>Wilson Salles Junior</strong>, nasci em <strong class="ctes">Bauru/SP Brasil</strong> sou
+          apaixonado por jogos digitais, e graças aos jogos digitais que me permitiu buscar aprender linguagens de
+          programação, através do Unity 3D, com a linguagem C#, hoje em dia, descobri que amo programar, desde então,
+          busco ser um grande programador :D.<br>Neste meu portifólio, você poderá me conhecer um pouco melhor e minhas
+          capacidades.</p>
+      </div>
+
+
+    </div>
+
+
+
+
+    <hr>
+  </div>
+  <div class="hab">
+    <h2 id="habilidades">Habilidades:</h2>
+    <div class="content">
+      <p>Aqui listarei as habilidades que adquiri através da Trybe. <em>A que está em negrito eu amo de paixão *u*</em>
+      </p>
+      <ul>
+        <li>Unix</li>
+        <li>Bash</li>
+        <li>Git</li>
+        <li>Github</li>
+        <li><strong>HTML</strong></li>
+      </ul>
+    </div>
+    <hr>
+    <h2 id="familia">Familia</h2>
+    <div class="content">
+      <img src="pp.jpeg" alt="Wilson com sua esposa" class="wp">
+      <p><em>Este sou eu e minha mulher, este dia foi muito bom</em></p>
+    </div>
+    <hr>
+
+  </div>
+
+  <div class="divertido">
+    <h2 id="divertido">Um site divertido:</h2>
+    <p>o site <a href="http://pointerpointer.com/" target="_blank" class="pointer">Pointer Pointer</a> faz com que você
+      coloque o cursor em qualquer parte da página e ela retorna uma imagem de alguém/algo apontando para o cursor.</p>
+  </div>
+
 </body>
+
 </html>
