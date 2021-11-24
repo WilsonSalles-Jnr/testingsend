@@ -1,4 +1,5 @@
 import React from 'react';
+import UseApi from '../Projetos/ProjetoApi/UseApi';
 import '../Styles/projetos.css'
 
 class Project extends React.Component {
@@ -17,7 +18,7 @@ class Project extends React.Component {
         </ul>
       </aside>
       <section className="projectSection">
-        projeto rodando
+        <UseApi />
       </section>
     </main>;
   }
