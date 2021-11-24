@@ -4,8 +4,8 @@ import '../Styles/home.css'
 class Home extends React.Component {
   render() { 
     return (
-      <main>
-        <aside>
+      <main className="homeMain">
+        <aside className="homeAside">
           <img
           src="https://avatars.githubusercontent.com/u/64506476?v=4"
           alt="wilson salles junior"
@@ -13,7 +13,7 @@ class Home extends React.Component {
         />
         <h2>Oi, eu sou o Wilson</h2>
         </aside>
-        <section>
+        <section className="homeSection">
           <h2>Um pouco sobre mim:</h2>
           <hr />
           <h3>Quem sou eu?</h3>
