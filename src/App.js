@@ -5,6 +5,8 @@ import Home from './Pages/Home';
 import Skills from './Pages/Skills';
 import { BrowserRouter } from "react-router-dom";
 import { Switch, Route} from "react-router"
+import Project from './Pages/Project';
+import Contato from './Pages/Contato';
 
 class App extends React.Component {
   render() { 
@@ -14,7 +16,9 @@ class App extends React.Component {
       <Header />
       <Switch>
       <Route exact path="/" component={Home} />
-      <Route path="/Skills" component={Skills} />
+      <Route path="/skills" component={Skills} />
+      <Route path="/projetos" component={Project} />
+      <Route path="/contato" component={Contato} />
       </Switch>
       {/* <Skills /> */}
       <Footer />

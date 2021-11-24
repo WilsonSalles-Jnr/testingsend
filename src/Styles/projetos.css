@@ -1,0 +1,35 @@
+.projectMain {
+  display: flex;
+  justify-content: space-between;
+}
+.projectAside {
+width: 25%;
+height: 80vh;
+overflow-y: scroll;
+background-color: rgb(221, 221, 221);
+box-shadow: 10px 10px 20px rgb(185, 185, 185);
+}
+
+.projectAside li {
+  background-color: rgb(0, 255, 170);
+  color: blue;
+  margin: 10px 100px 10px 0;
+  padding: 10px 0;
+  border-radius: 0 20px 20px 0;
+}
+
+.projectAside li:hover {
+  background-color: rgb(76, 0, 255);
+  color: rgb(88, 255, 233);
+  border-radius: 0;
+  margin: 10px 30px 10px 0;
+  transition: .3s;
+}
+
+.projectSection {
+  background-color: yellow;
+  width: 65%;
+  background-color: rgb(221, 221, 221);
+  box-shadow: 10px 10px 20px rgb(185, 185, 185);
+
+}
