@@ -1,4 +1,6 @@
 import React from 'react';
+import { Route, Switch } from 'react-router';
+import { Link } from 'react-router-dom';
 import UseApi from '../Projetos/ProjetoApi/UseApi';
 import '../Styles/projetos.css'
 
@@ -9,7 +11,7 @@ class Project extends React.Component {
         <h2>Projetos:</h2>
         <hr />
         <ul>
-          <li>Projeto 1</li>
+          <Link to="/projetos/useapi">Usando api e filtrando resultados</Link>
           <li>Projeto 2</li>
           <li>Projeto 3</li>
           <li>Projeto 4</li>
@@ -18,7 +20,10 @@ class Project extends React.Component {
         </ul>
       </aside>
       <section className="projectSection">
-        <UseApi />
+        <Switch>
+          <Route exact path="/projetos/">Selecione um projeto</Route>
+          <Route path="/projetos/useapi" component={UseApi} />
+        </Switch>
       </section>
     </main>;
   }
