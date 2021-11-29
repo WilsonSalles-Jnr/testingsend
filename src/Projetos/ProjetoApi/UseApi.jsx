@@ -23,6 +23,8 @@ class UseApi extends React.Component {
   render() {
     const {loaded, characters} = this.state; 
     return (
+      <>
+      <input type="text" />
       <main className="chamaApi">
       {characters.length > 0 && characters.map((cur) => (
         <section className="useApiCards">
@@ -36,6 +38,7 @@ class UseApi extends React.Component {
         </section>
     ))}
     </main>
+    </>
     );
   }
 }
