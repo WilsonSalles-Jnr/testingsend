@@ -12,11 +12,7 @@ class Project extends React.Component {
         <hr />
         <ul>
           <Link to="/projetos/useapi">Usando api e filtrando resultados</Link>
-          <li>Projeto 2</li>
-          <li>Projeto 3</li>
-          <li>Projeto 4</li>
-          <li>Projeto 5</li>
-          <li>Projeto 6</li>
+          <p>Mais projetos em breve :)</p>
         </ul>
       </aside>
       <section className="projectSection">
